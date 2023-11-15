@@ -1,7 +1,7 @@
 function App() {
   return (
     <div className="App">
-      <h1>THIS IS FOR TAILWIND!!!</h1>
+      <h1 className='text-6xl'>THIS IS FOR TAILWIND!!!</h1>
     </div>
   )
 }
