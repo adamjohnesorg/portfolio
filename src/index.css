@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@keyframes transitionAnimate {
+    0% {
+        opacity: 0;
+        background-color: rgb(50, 50, 50);
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#headerDiv {
+    animation: transitionAnimate ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.txt-primary {
+    @apply text-gray-300 font-serif
+}
+
+.txt-primary-title {
+    @apply text-gray-300 font-serif opacity-75 text-2xl
+}
