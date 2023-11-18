@@ -1,12 +1,18 @@
-import Header from "./components/Header";
+import Header from './components/Header'
+import NavBar from './components/NavBar'
+import ContentBody from './components/ContentBody'
 
 const App = () => 
 {
   return (
-    <div id="container"
+    <div id='container'
          className=' flex flex-col items-center min-w-full p-3 bg-gradient-to-r
                    from-gray-950 via-zinc-800 to-gray-950'>
       <Header />
+      <NavBar />
+      <main>
+        <ContentBody />
+      </main>
     </div>
   )
 }

@@ -6,15 +6,14 @@ import Titles from './Titles'
 const Header = () => 
 {
   return (
-    <div id='headerDiv'
-         className='flex flex-row justify-around w-9/12 p-2 border-b-8 border-b-slate-800
-                    bg-opacity-30'>
-      <NameAndLogo />
-      <div></div>
-      <div></div>
-      <Titles />
-      <HeaderIcons />
-    </div>
+    <header className='w-11/12'>
+      <div id='headerDiv'
+          className='flex flex-row justify-around p-2 mb-14 bg-opacity-30'>
+        <NameAndLogo />
+        <Titles />
+        <HeaderIcons />
+      </div>
+    </header>
   )
 }
 

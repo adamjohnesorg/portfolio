@@ -2,26 +2,70 @@
 @tailwind components;
 @tailwind utilities;
 
-@keyframes transitionAnimate {
+/** animations **/
+
+@keyframes transitionAnimateHeader {
     0% {
         opacity: 0;
-        background-color: rgb(50, 50, 50);
+        clip-path: polygon(12% 0, 100% 0%, 88% 100%, 0% 100%);
     }
     100% {
         opacity: 1;
+        background-color: rgba(5, 5, 5, 0.125);
+        clip-path: polygon(12% 0, 100% 0%, 88% 100%, 0% 100%);
     }
 }
 
-#headerDiv {
-    animation: transitionAnimate ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+@keyframes transitionAnimateAll {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        background-color: rgba(5, 5, 5, 0.05);
+    }
+}
+
+/** custom tailwind CSS **/
+
+.content-txt-div {
+    @apply w-full mb-12
+}
+
+.content-txt-header {
+    @apply text-4xl text-center pt-4
+}
+
+.content-txt {
+    @apply text-2xl text-center p-4 w-7/12
 }
 
 .txt-primary {
-    @apply text-gray-300 font-serif
+    @apply text-gray-300 font-mono
 }
 
 .txt-primary-title {
     @apply text-gray-300 font-serif opacity-75 text-2xl
+}
+
+/** Other CSS **/
+
+#headerDiv {
+    animation: transitionAnimateHeader ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#aboutMeDiv, #descriptionDiv, #educationDiv, #experienceDiv, #navbarDiv, #projectsDiv {
+    animation: transitionAnimateAll ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#navSelect:not(:last-of-type) {
+    margin-bottom: 10px;
+}
+
+#siuePic {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
