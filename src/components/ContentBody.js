@@ -10,7 +10,9 @@ const ContentBody = () =>
   return (
     <div className='flex flex-col items-center'>
         <AboutMe />
+      <div className='outsideDiv'></div>
         <Education />
+      <div className='outsideDiv'></div>
         <Experience />
         <Projects />
         <Description />

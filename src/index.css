@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+li {
+    @apply font-mono text-center text-gray-300 opacity-90 font-bold
+}
 
 /** animations **/
 
@@ -11,7 +13,7 @@
     }
     100% {
         opacity: 1;
-        background-color: rgba(5, 5, 5, 0.125);
+        background-color: rgba(5, 5, 5, 0.25);
         clip-path: polygon(12% 0, 100% 0%, 88% 100%, 0% 100%);
     }
 }
@@ -22,42 +24,54 @@
     }
     100% {
         opacity: 1;
-        background-color: rgba(5, 5, 5, 0.05);
+        background-color: rgba(5, 5, 5, 0.20);
     }
 }
 
 /** custom tailwind CSS **/
 
+.border-header {
+    @apply h-1 w-10/12 mr-40 bg-gradient-to-r from-slate-400 to-gray-900 to-85% opacity-30
+}
+
 .content-txt-div {
-    @apply w-full mb-12
+    @apply w-full
 }
 
-.content-txt-header {
-    @apply text-4xl text-center pt-4
+.outsideDiv {
+    @apply h-1 w-9/12 mt-20 bg-gradient-to-r from-slate-400 to-gray-900 to-90%
 }
 
-.content-txt {
-    @apply text-2xl text-center p-4 w-7/12
+.txt-header {
+    @apply text-4xl text-center pt-4 text-white font-quicksand font-semibold
 }
 
-.txt-primary {
+.txt-nav {
     @apply text-gray-300 font-mono
 }
 
+.txt-primary {
+    @apply text-gray-300 font-quicksand font-semibold
+}
+
 .txt-primary-title {
-    @apply text-gray-300 font-serif opacity-75 text-2xl
+    @apply text-slate-50 font-serif opacity-80 text-2xl
+}
+
+.txt-body {
+    @apply text-2xl text-center p-4 w-5/12 font-quicksand font-semibold text-teal-50
 }
 
 /** Other CSS **/
 
-#headerDiv {
-    animation: transitionAnimateHeader ease 3s;
+#aboutMeDiv, #descriptionDiv, #educationDiv, #experienceDiv, #navbarDiv, #projectsDiv {
+    animation: transitionAnimateAll ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-#aboutMeDiv, #descriptionDiv, #educationDiv, #experienceDiv, #navbarDiv, #projectsDiv {
-    animation: transitionAnimateAll ease 3s;
+#headerDiv {
+    animation: transitionAnimateHeader ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -69,3 +83,7 @@
 #siuePic {
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

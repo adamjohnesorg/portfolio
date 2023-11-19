@@ -4,8 +4,8 @@ const AboutMe = () =>
 {
   return (
     <div id='aboutMeDiv' className='flex flex-col items-center content-txt-div'>
-        <h2 className='txt-primary content-txt-header'>Short Introduction</h2>
-        <p className='txt-primary content-txt'>
+        <h2 className='txt-header'>Short Introduction</h2>
+        <p className='txt-body'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Velit scelerisque in dictum non 
             consectetur a. Sed id semper risus in hendrerit gravida rutrum quisque. 
