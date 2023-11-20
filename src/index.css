@@ -18,7 +18,7 @@ li {
     }
 }
 
-@keyframes transitionAnimateAll {
+@keyframes transitionAnimateAllBlack {
     0% {
         opacity: 0;
     }
@@ -28,22 +28,66 @@ li {
     }
 }
 
+@keyframes transitionAnimateAllWhite {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        background-color: rgba(255, 255, 255, 0.60);
+    }
+}
+
+@keyframes transitionFadeIn {
+    0% {
+        opacity: 0;
+    }
+}
+
 /** custom tailwind CSS **/
 
+.body-to-white {
+    @apply h-20 w-9/12 bg-gradient-to-b from-zinc-900 from-10% to-slate-200 opacity-20
+}
+
+.body-to-black {
+    @apply body-to-white rotate-180
+}
+
+.body-white {
+    @apply bg-white opacity-60
+}
+
 .border-header {
-    @apply h-1 w-10/12 mr-40 bg-gradient-to-r from-slate-400 to-gray-900 to-85% opacity-30
+    @apply h-1 w-9/12 mr-40 bg-gradient-to-r from-white to-black to-85% opacity-20
+}
+
+.border-to-black {
+    @apply h-2 w-9/12 bg-gradient-to-r from-white to-zinc-900 to-90% opacity-60
+}
+
+.border-to-white {
+    @apply border-to-black rotate-180
 }
 
 .content-txt-div {
-    @apply w-full
+    @apply w-9/12
 }
 
-.outsideDiv {
-    @apply h-1 w-9/12 mt-20 bg-gradient-to-r from-slate-400 to-gray-900 to-90%
+.txt-body-black {
+    @apply text-2xl text-center p-4 w-7/12 font-quicksand font-semibold text-black
 }
 
-.txt-header {
-    @apply text-4xl text-center pt-4 text-white font-quicksand font-semibold
+.txt-body-white {
+    @apply text-2xl text-center p-4 w-7/12 font-quicksand font-semibold text-teal-50
+}
+
+.txt-header-black {
+    @apply text-4xl text-center pt-4 font-quicksand font-semibold text-black
+}
+
+.txt-header-white {
+    @apply text-4xl text-center pt-4 font-quicksand font-semibold text-teal-50
 }
 
 .txt-nav {
@@ -58,14 +102,22 @@ li {
     @apply text-slate-50 font-serif opacity-80 text-2xl
 }
 
-.txt-body {
-    @apply text-2xl text-center p-4 w-5/12 font-quicksand font-semibold text-teal-50
-}
-
 /** Other CSS **/
 
-#aboutMeDiv, #descriptionDiv, #educationDiv, #experienceDiv, #navbarDiv, #projectsDiv {
-    animation: transitionAnimateAll ease 3s;
+#aboutMeDiv, #descriptionDiv, #experienceDiv, #navbarDiv, #projectsDiv {
+    animation: transitionAnimateAllBlack ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+#educationDiv {
+    animation: transitionAnimateAllWhite ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.fadeInElement {
+    animation: transitionFadeIn ease 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
