@@ -8,7 +8,7 @@ const Header = () =>
   return (
     <header className='w-11/12'>
       <div id='headerDiv'
-          className='flex flex-row justify-around p-2 bg-opacity-30'>
+           className='flex flex-row justify-around p-2 bg-opacity-30'>
         <NameAndLogo />
         <Titles />
         <HeaderIcons />

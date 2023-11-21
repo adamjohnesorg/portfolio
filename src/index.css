@@ -110,7 +110,7 @@ li {
     animation-fill-mode: forwards;
 }
 
-#educationDiv, #projectsDiv {
+#educationDiv, #projectDiv {
     animation: transitionAnimateAllWhite ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
