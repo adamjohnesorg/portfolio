@@ -11,7 +11,8 @@ const Experience = () =>
             Diam ut venenatis tellus in metus. Adipiscing elit ut aliquam purus sit amet 
             luctus venenatis lectus. 
         </p>
-        <div className='flex flex-row justify-center w-6/12'>
+        <div className='flex flex-row justify-center w-6/12 bg-white bg-opacity-10 p-4
+                        border-2 border-white border-opacity-70'>
           <div className='w-4/12'>
             <h1 className='txt-header-white text-2xl'>Profencies</h1>
             <ul>
