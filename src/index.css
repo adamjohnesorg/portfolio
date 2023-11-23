@@ -54,40 +54,32 @@ li {
     @apply body-to-white rotate-180
 }
 
-.body-white {
-    @apply bg-white opacity-60
-}
-
 .border-header {
     @apply h-1 w-9/12 mr-40 bg-gradient-to-r from-white to-black to-85% opacity-20
 }
 
 .border-to-black {
-    @apply h-2 w-9/12 bg-gradient-to-r from-white to-zinc-900 to-90% opacity-60
+    @apply h-2 w-10/12 bg-gradient-to-r from-white to-zinc-900 to-90% opacity-60
 }
 
 .border-to-white {
     @apply border-to-black rotate-180
 }
 
-.content-txt-div {
-    @apply w-9/12
-}
-
 .txt-body-black {
-    @apply text-2xl text-center p-4 w-7/12 font-quicksand font-semibold text-black
+    @apply text-2xl text-center font-quicksand font-extralight text-black
 }
 
 .txt-body-white {
-    @apply text-2xl text-center p-4 w-7/12 font-quicksand font-semibold text-teal-50
+    @apply text-2xl text-center font-quicksand font-extralight text-teal-50
 }
 
 .txt-header-black {
-    @apply text-6xl text-center pt-4 font-quicksand font-semibold text-black
+    @apply text-6xl text-center font-quicksand font-semibold text-black
 }
 
 .txt-header-white {
-    @apply text-6xl text-center pt-4 font-quicksand font-semibold text-teal-50
+    @apply text-6xl text-center font-quicksand font-semibold text-teal-50
 }
 
 .txt-nav {
@@ -130,6 +122,10 @@ li {
 
 #navSelect:not(:last-of-type) {
     margin-bottom: 10px;
+}
+
+#descriptionDiv, #educationDiv, #experienceDiv, #projectDiv {
+    min-width: 725px;
 }
 
 @tailwind base;
