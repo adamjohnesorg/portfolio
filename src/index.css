@@ -28,16 +28,6 @@ li {
     }
 }
 
-@keyframes transitionAnimateAllWhite {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-        background-color: rgba(255, 255, 255, 0.80);
-    }
-}
-
 @keyframes transitionFadeIn {
     0% {
         opacity: 0;
@@ -46,16 +36,8 @@ li {
 
 /** custom tailwind CSS **/
 
-.body-to-white {
-    @apply h-20 w-9/12 bg-gradient-to-b from-zinc-900 from-10% to-slate-200 opacity-20
-}
-
-.body-to-black {
-    @apply body-to-white rotate-180
-}
-
 .border-header {
-    @apply h-1 w-9/12 mr-40 bg-gradient-to-r from-white to-black to-85% opacity-20
+    @apply h-1 w-full bg-gradient-to-r from-white to-black to-85% opacity-20
 }
 
 .border-to-black {
@@ -64,22 +46,6 @@ li {
 
 .border-to-white {
     @apply border-to-black rotate-180
-}
-
-.txt-body-black {
-    @apply text-2xl text-center font-quicksand font-extralight text-black
-}
-
-.txt-body-white {
-    @apply text-2xl text-center font-quicksand font-extralight text-teal-50
-}
-
-.txt-header-black {
-    @apply text-6xl text-center font-quicksand font-semibold text-black
-}
-
-.txt-header-white {
-    @apply text-6xl text-center font-quicksand font-semibold text-teal-50
 }
 
 .txt-nav {
@@ -96,14 +62,8 @@ li {
 
 /** Other CSS **/
 
-#aboutMeDiv, #descriptionDiv, #experienceDiv, #navbarDiv {
+#aboutMeDiv, #descriptionDiv, #experienceDiv, #navbarDiv, #educationDiv, #projectDiv {
     animation: transitionAnimateAllBlack ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-
-#educationDiv, #projectDiv {
-    animation: transitionAnimateAllWhite ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
