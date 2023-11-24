@@ -4,7 +4,7 @@ const Education = () =>
 {
   return (
     <div id='educationDiv'
-         className='flex flex-col w-10/12 h-44 sm:w-full 2xl:h-max'>
+         className='flex flex-col w-10/12 sm:w-full 2xl:h-max'>
       <div className='border-to-white w-full fadeInElement'></div>
       <div className='flex flex-row'>
         <div className='mr-4'>
