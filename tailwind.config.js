@@ -22,7 +22,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        quicksand: ['Quicksand']
+        quicksand: ['Quicksand'],
+        poppins: ['Poppins']
       }
     },
   },

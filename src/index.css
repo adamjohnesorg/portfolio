@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 li {
     @apply font-mono text-center text-gray-300 opacity-90 font-bold
@@ -18,16 +19,6 @@ li {
     }
 }
 
-@keyframes transitionAnimateAllBlack {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-        background-color: rgba(5, 5, 5, 0.20);
-    }
-}
-
 @keyframes transitionFadeIn {
     0% {
         opacity: 0;
@@ -37,7 +28,7 @@ li {
 /** custom tailwind CSS **/
 
 .border-header {
-    @apply h-1 w-full bg-gradient-to-r from-white to-black to-85% opacity-20
+    @apply h-1 w-full bg-gradient-to-r from-white to-slate-900 to-85% opacity-20
 }
 
 .border-to-black {
@@ -48,24 +39,44 @@ li {
     @apply border-to-black rotate-180
 }
 
-.txt-nav {
+.content-div:not(:last-of-type) {
+    margin-bottom: 40px;
+}
+
+.min-w-50 {
+    min-width: 50px;
+}
+
+.min-w-100 {
+    min-width: 100px;
+}
+
+.separator {
+    @apply bg-gray-300 bg-opacity-80 w-4 sm:w-1
+}
+
+.text-secondary {
+    @apply text-gray-300 font-poppins font-normal p-1
+}
+
+.text-nav {
     @apply text-gray-300 font-mono
 }
 
-.txt-primary {
+.text-primary {
     @apply text-gray-300 font-quicksand font-semibold
-}
-
-.txt-primary-title {
-    @apply text-slate-50 font-serif opacity-80 text-2xl
 }
 
 /** Other CSS **/
 
 #aboutMeDiv, #descriptionDiv, #experienceDiv, #navbarDiv, #educationDiv, #projectDiv {
-    animation: transitionAnimateAllBlack ease 3s;
+    animation: transitionFadeIn ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+#cv-button {
+    max-width: 115px;
 }
 
 .fadeInElement {
@@ -80,12 +91,15 @@ li {
     animation-fill-mode: forwards;
 }
 
-#navSelect:not(:last-of-type) {
-    margin-bottom: 10px;
+#og-header-div {
+    @media (min-width: 639px)
+    {
+        min-width: 900px;
+    }
 }
 
-#descriptionDiv, #educationDiv, #experienceDiv, #projectDiv {
-    min-width: 725px;
+#navSelect:not(:last-of-type) {
+    margin-bottom: 10px;
 }
 
 @tailwind base;
