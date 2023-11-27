@@ -6,7 +6,8 @@ const Description = () =>
 {
   return (
     <div id='descriptionDiv'
-         className='content-div'>
+         className='content-div sm:border-l sm:border-l-white sm:border-opacity-40
+         sm:border-r sm:border-r-white'>
       <div className='flex flex-col items-center m-auto w-5/12 sm:w-9/12'>
         <div>
           <h1 className='text-primary text-4xl'>About</h1>

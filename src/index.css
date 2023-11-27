@@ -52,7 +52,7 @@ li {
 }
 
 .separator {
-    @apply bg-gray-300 bg-opacity-80 w-4 sm:w-1
+    @apply bg-gray-300 bg-opacity-80 w-4 sm:w-1 shadow-sm shadow-gray-400
 }
 
 .text-secondary {
