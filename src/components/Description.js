@@ -14,16 +14,20 @@ const Description = () =>
         </div>
         <div className='flex flex-col gap-6'>
           <p className='text-secondary text-center'>
-            After originally attending Saint Louis University as a student in their
-            direct-entry physical therapy program, I suddenly switched majors and schools
-            to pursue Computer Science at Southern Illinois University Edwardsville (SIUE).
-            I am a graduate with a Bachelor of Arts in Computer Science in conjunction with
-            a minor in psychology.
+            Originally attending Saint Louis University (SLU) as a student in their
+            prestigious physical therapy doctorate program, I switched majors 
+            and schools to pursue Computer Science at Southern Illinois University 
+            Edwardsville (SIUE). I am now a graduate with a Bachelor of Arts in Computer 
+            Science in conjunction with a minor in psychology.
           </p>
           <p className='text-secondary text-center'>
             My favorite part of working with software is that it allows me to fully express
             my creativity. I highly value creative thinking, problem solving and the ability
-            to think outside the box. My core stack currently is ReactJS, Tailwind and some
+            to think outside the box.<br></br> I strive to create in a way so that my
+            software reflects that.
+          </p>
+          <p className='text-secondary text-center'>
+            My core stack currently is ReactJS, Tailwind and some
             NodeJS. I am also proficient with Java and Python and I am familiar with most OOP
             programming languages.
           </p>
@@ -34,13 +38,13 @@ const Description = () =>
           </p>
         </div>
       </div>
-      <p className='text-secondary flex justify-center'>
+      <p className='text-secondary flex flex-row justify-center items-center'>
         (
           #OnePride<img className='w-8 h-6'
                         alt='detroit lions logo'
                         src={ detroit_lions_logo }>
                     </img>
-          #BoomBaby<img className='w-6 h-6 ml-2'
+          #BoomBaby<img className='w-4 h-4 ml-2'
                         alt='indiana pacers logo'
                         src={ indiana_pacers_logo }>
                     </img>

@@ -62,7 +62,7 @@ const Experience = () =>
                           shadow-sm shadow-gray-400'>
             <div className='flex flex-col'>
               <h1 className='text-primary text-3xl sm:text-xl'>Software Coordinator</h1>
-              <span className='text-secondary text-2xl sm:text-base'>Godfrey, IL</span>
+              <span className='text-secondary text-2xl sm:text-base'>Alfapet Inc.</span>
               <p className='text-secondary'>
                 Responsible for maintaining the software systems, built multiple company 
                 applications and a website

@@ -9,10 +9,10 @@ const NavBar = () =>
         <nav>
             <div className='flex flex-col items-center pt-3 pb-3 pl-10 pr-10'>
                 <h1 className='text-primary text-4xl mb-6'>Content</h1>
-                <span id='navSelect' className='text-nav'>I | Education</span>
+                <span id='navSelect' className='text-nav'>I | About</span>
                 <span id='navSelect' className='text-nav'>II | Experience</span>
                 <span id='navSelect' className='text-nav'>III | Projects</span>
-                <span id='navSelect' className='text-nav'>IV | Description</span>
+                <span id='navSelect' className='text-nav'>IV | Skills</span>
             </div>
         </nav>
     </div>

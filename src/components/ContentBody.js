@@ -2,6 +2,7 @@ import React from 'react'
 import Experience from './Experience'
 import Projects from './Projects'
 import Description from './Description'
+import Skills from './Skills'
 
 const ContentBody = () => 
 {
@@ -10,6 +11,7 @@ const ContentBody = () =>
       <Description />
       <Experience />
       <Projects />
+      <Skills />
     </div>
   )
 }

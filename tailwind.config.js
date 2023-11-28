@@ -24,6 +24,9 @@ module.exports = {
       fontFamily: {
         quicksand: ['Quicksand'],
         poppins: ['Poppins']
+      },
+      dropShadow: {
+        '3xl': '0 35px 35px rgba(255, 255, 255, 0.25)'
       }
     },
   },

@@ -9,8 +9,7 @@ const Header = () =>
     <div id='og-header-div' className='w-11/12'>
       <header className='w-full'>
         <div id='headerDiv'
-             className='flex flex-col justify-center items-center bg-slate-950 
-             bg-opacity-30'>
+             className='flex flex-col justify-center items-center bg-white bg-opacity-5'>
           <div className='border-header fadeInElement rotate-180'></div>
           <div className='flex flex-row justify-between items-center w-9/12 p-3 sm:flex-col'>
             <div>
@@ -25,6 +24,7 @@ const Header = () =>
             <button id='cv-button' 
                     className='bg-white bg-opacity-90 p-1 w-2/12 sm:w-4/12 rounded-full
                                border border-transparent min-w-100 sm:bg-opacity-80
+                               shadow-sm shadow-gray-400
                                hover:bg-transparent
                                hover:text-white
                                hover:border
