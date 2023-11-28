@@ -15,7 +15,7 @@ const Description = () =>
         <div className='flex flex-col gap-6'>
           <p className='text-secondary text-center'>
             Originally attending Saint Louis University (SLU) as a student in their
-            prestigious physical therapy doctorate program, I switched majors 
+            prestigious Physical Therapy doctorate program, I switched majors 
             and schools to pursue Computer Science at Southern Illinois University 
             Edwardsville (SIUE). I am now a graduate with a Bachelor of Arts in Computer 
             Science in conjunction with a minor in psychology.

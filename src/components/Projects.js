@@ -21,18 +21,18 @@ const Projects = () =>
             </div>
             <div>
               <p className='text-secondary sm:text-center'>
-                NFL draftboard was my first website I have created using ReactJS and the
-                MERN stack (MongoDB, Express, React, Node). In development, I used a mongoDB server
-                to load the players' data but upon production, I decided it would be best
-                to move their stats to a local JSON file.
+                NFL Draftboard was my first website I created using ReactJS and the
+                MERN stack (<em>MongoDB, Express, React, Node</em>). In development, I 
+                used a MongoDB server to load the players' data; however upon production, 
+                I decided it would be best to move their stats to a local JSON file.
               </p>
             </div>
             <div>
               <p className='text-secondary sm:text-center'>
-                The objective of the website is for users to be able to rank NFL players
-                by their own opinion. The user adds players from the table database to the left,
-                and ranks them in the table to the right according to their own desire.
-                This particular idea will be very beneficial for fantasy drafts, hence the name.
+                The objective of the website is for users to be able to rank NFL players.
+                The user adds players from the table database from the left,
+                and ranks them in the table to the right.
+                This particular idea is very beneficial for fantasy drafts, hence the name.
               </p>
             </div>
             <div className='flex flex-row justify-start 2xl:flex-col xl:items-center'>
@@ -85,8 +85,8 @@ const Projects = () =>
             </div>
             <div>
               <p className='text-secondary sm:text-center'>
-                The cat pan liner calculator, or 'catculator' was the first website I have ever
-                created, although it is certainly not in its first iteration. I created this project
+                Although the cat pan liner calculator, or 'catculator' is the first website I ever
+                created, it is certainly not in its first iteration. I created this project
                 using HTML, CSS and Javascript.
               </p>
             </div>
@@ -94,7 +94,8 @@ const Projects = () =>
               <p className='text-secondary sm:text-center'>
                 The idea of the cat pan liner calculator is for the client to measure their own
                 litterbox at home and input those measurements into the online calculator. The
-                calculator will then output the properly sized liner that will fit their litterbox.
+                calculator will then output the properly sized liner that will fit their
+                appropriately sized litterbox.
               </p>
             </div>
             <div className='flex flex-row justify-start 2xl:flex-col xl:items-center'>
