@@ -65,6 +65,10 @@ li {
     @apply text-gray-300 font-quicksand font-semibold
 }
 
+.text-shadow-white {
+    text-shadow: 0.5px 0.5px 6px white;
+}
+
 /** Other CSS **/
 
 #aboutMeDiv, #descriptionDiv, #experienceDiv, #navbarDiv, #educationDiv, #projectDiv {

@@ -28,8 +28,8 @@ const Description = () =>
           </p>
           <p className='text-secondary text-center'>
             My core stack currently is ReactJS, Tailwind and some
-            NodeJS. I am also proficient with Java and Python and I am familiar with most OOP
-            programming languages.
+            NodeJS. I am also proficient with Java and Python and I am comfortable with most 
+            Object-Oriented-Programming languages.
           </p>
           <p className='text-secondary text-center'>
             When I am not sitting in front of my computer, I like to play and study chess, 

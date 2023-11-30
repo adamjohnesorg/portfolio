@@ -51,14 +51,14 @@ const Skills = () =>
                             border border-white border-opacity-10 rounded-xl p-3
                             shadow-sm shadow-gray-400'>
                 <span className='text-secondary'>
-                  Node
+                  NodeJS
                 </span>
               </div>
               <div className='bg-white bg-opacity-20
                             border border-white border-opacity-10 rounded-xl p-3
                             shadow-sm shadow-gray-400'>
                 <span className='text-secondary'>
-                  Some Linux Systems
+                  Linux
                 </span>
               </div>
               <div className='bg-white bg-opacity-20
@@ -93,7 +93,7 @@ const Skills = () =>
             <div className='flex flex-col xl:flex-row gap-1 xl:gap-2'>
               <div className='flex flex-row'>
                 <div className='w-full xl:w-6 h-4 xl:h-full bg-gradient-to-r 
-                              xl:bg-gradient-to-b from-green-500 to-red-100
+                              xl:bg-gradient-to-b from-green-500 to-red-50
                               rounded-xl p-3 shadow-sm shadow-gray-400'></div>
               </div>
               <div className='flex flex-row xl:flex-col justify-between'>

@@ -2,6 +2,7 @@ import React from 'react'
 import NameAndLogo from './NameAndLogo'
 import HeaderIcons from './HeaderIcons'
 import Titles from './Titles'
+import resume from '../resources/Resume.pdf'
 
 const Header = () => 
 {
@@ -21,15 +22,16 @@ const Header = () =>
             <div className='flex flex-col'>
               <HeaderIcons />
             </div>
-            <button id='cv-button' 
-                    className='bg-white bg-opacity-90 p-1 w-2/12 sm:w-4/12 rounded-full
-                               border border-transparent min-w-100 sm:bg-opacity-80
-                               shadow-sm shadow-gray-400
-                               hover:bg-transparent
-                               hover:text-white
-                               hover:border
-                               hover:border-white
-                               hover:border-opacity-25'>View CV</button>
+            <a download='Adam_Johnes_Resume' href= { resume }>
+              <button id='cv-button' 
+                      className='bg-white bg-opacity-90 p-1 w-2/12 sm:w-4/12 rounded-full
+                                border border-transparent min-w-100 sm:bg-opacity-80
+                                shadow-sm shadow-gray-400
+                                hover:bg-transparent
+                                hover:text-white
+                                hover:border
+                                hover:border-white
+                                hover:border-opacity-25'>View CV</button></a>
           </div>
           <div className='border-header fadeInElement'></div>
         </div>

@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import NavBar from './components/NavBar'
 import ContentBody from './components/ContentBody'
+import Footer from './components/Footer'
 
 const App = () => 
 {
@@ -14,6 +15,7 @@ const App = () =>
       <main>
         <ContentBody />
       </main>
+      <Footer />
     </div>
   )
 }
