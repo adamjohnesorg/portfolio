@@ -19,7 +19,8 @@ const Experience = () =>
               <h1 className='text-primary text-3xl sm:text-xl'>Graduated from SIUE</h1>
               <span className='text-secondary text-2xl sm:text-base'>Edwardsville, IL</span>
               <p className='text-secondary'>
-                Studied computer science and graduated in the winter with a bachelors
+                Studied and graduated in the winter with a bachelors in
+                computer science
               </p>
             </div>
           </div>
