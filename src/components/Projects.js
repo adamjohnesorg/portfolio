@@ -21,7 +21,7 @@ const Projects = () =>
             </div>
             <div>
               <p className='text-secondary sm:text-center'>
-                NFL Draftboard was my first website I created using ReactJS and the
+                NFL Draftboard was my first website I created using the
                 MERN stack (<em>MongoDB, Express, React, Node</em>). In development, I 
                 used a MongoDB server to load the players' data; however upon production, 
                 I decided it would be best to move their stats to a local JSON file.
@@ -31,8 +31,8 @@ const Projects = () =>
               <p className='text-secondary sm:text-center'>
                 The objective of the website is for users to be able to rank NFL players.
                 The user adds players from the table database from the left,
-                and ranks them in the table to the right.
-                This particular idea is very beneficial for fantasy drafts, hence the name.
+                and ranks them in a table to the right.
+                This particular idea is very beneficial for fantasy drafts.
               </p>
             </div>
             <div className='flex flex-row justify-start 2xl:flex-col xl:items-center'>
@@ -85,9 +85,8 @@ const Projects = () =>
             </div>
             <div>
               <p className='text-secondary sm:text-center'>
-                Although the cat pan liner calculator, or 'catculator' is the first website I ever
-                created, it is certainly not in its first iteration. I created this project
-                using HTML, CSS and Javascript.
+                The cat pan liner calculator, or 'catculator' is the first website I ever
+                created. I created this project using HTML, CSS and Javascript.
               </p>
             </div>
             <div>
