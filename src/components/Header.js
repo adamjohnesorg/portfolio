@@ -2,7 +2,7 @@ import React from 'react'
 import NameAndLogo from './NameAndLogo'
 import HeaderIcons from './HeaderIcons'
 import Titles from './Titles'
-import resume from '../resources/Resume.pdf'
+import resume from '../resources/AdamJohnes_Resume.pdf'
 
 const Header = () => 
 {

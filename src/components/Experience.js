@@ -1,6 +1,7 @@
 import React from 'react'
 import grad_hat from '../imgs/grad-hat.AVIF'
 import laptop from '../imgs/laptop.AVIF'
+import stl_seal from '../imgs/city-of-st-louis-seal.png'
 
 const Experience = () =>
 {
@@ -16,10 +17,10 @@ const Experience = () =>
                           border border-white border-opacity-10 rounded-xl p-3
                           shadow-sm shadow-gray-400'>
             <div className='flex flex-col'>
-              <h1 className='text-primary text-3xl sm:text-xl'>Graduated from SIUE</h1>
-              <span className='text-secondary text-2xl sm:text-base'>Edwardsville, IL</span>
-              <p className='text-secondary'>
-                Studied and graduated in the winter with a bachelors in
+              <h1 className='text-primary text-3xl text-center sm:leading-5 sm:text-lg'>Bachelors of Computer Science</h1>
+              <span className='text-secondary text-lg text-center sm:text-xs italic'>Southern Illinois University Edwardsville (SIUE)</span>
+              <p className='text-secondary text-center sm:text-sm'>
+                Graduated from SIUE in the winter with a bachelors in
                 computer science
               </p>
             </div>
@@ -34,20 +35,21 @@ const Experience = () =>
           <div className='flex flex-col w-5/12 justify-center'>
             <div className='bg-white bg-opacity-20 border border-white
                               border-opacity-10 rounded-xl p-3 justify-center items-center
-                              w-5/12 sm:w-8/12 shadow-sm shadow-gray-400'>
+                              w-6/12 sm:w-10/12 shadow-sm shadow-gray-400'>
               <div className='flex flex-col'>
-                <p className='text-secondary text-2xl text-center'>2022</p>
+                <p className='text-secondary text-center'>2019-2022</p>
               </div>
             </div>
           </div>
         </div>
+        {/* New Section */}
         <div className='flex flex-row w-full justify-center gap-5'>
           <div className='flex flex-col w-5/12 justify-center items-end'>
             <div className='bg-white bg-opacity-20 border border-white
                               border-opacity-10 rounded-xl p-3 justify-center items-center
-                              w-8/12 shadow-sm shadow-gray-400'>
+                              w-6/12 sm:w-11/12 shadow-sm shadow-gray-400'>
               <div className='flex flex-col'>
-                <p className='text-secondary text-center'>2021 - present</p>
+                <p className='text-secondary text-center'>2021 - 2024</p>
               </div>
             </div>
           </div>
@@ -62,15 +64,52 @@ const Experience = () =>
                           border border-white border-opacity-10 rounded-xl p-3
                           shadow-sm shadow-gray-400'>
             <div className='flex flex-col'>
-              <h1 className='text-primary text-3xl sm:text-xl'>Software Coordinator</h1>
-              <span className='text-secondary text-2xl sm:text-base'>Alfapet Inc.</span>
-              <p className='text-secondary'>
-                Responsible for maintaining the software systems, built multiple company 
-                applications and a website
+              <h1 className='text-primary text-3xl text-center sm:text-xl sm:leading-5'>Software Coordinator</h1>
+              <span className='text-secondary text-lg text-center italic sm:text-xs'>Alfapet Inc.</span>
+              <p className='text-secondary text-center sm:text-sm'>
+                Increased overall sales by creating a website that analyzes
+                cat pan liner data.
+              </p>
+              <p className='text-secondary text-center sm:text-sm'>
+                Maintained software systems with upper management when necessary.
               </p>
             </div>
           </div>
         </div>
+        {/* New Section */}
+        <div className='flex flex-row w-full justify-center gap-5'>
+          <div className='flex flex-col w-5/12 bg-white bg-opacity-20
+                          border border-white border-opacity-10 rounded-xl p-3
+                          shadow-sm shadow-gray-400'>
+            <div className='flex flex-col'>
+              <h1 className='text-primary text-3xl text-center sm:leading-5 sm:text-lg'>Programming Analyst</h1>
+              <span className='text-secondary text-lg text-center sm:text-xs italic'>City of St. Louis</span>
+              <p className='text-secondary text-center sm:text-sm'>
+                Use t-SQL to analyze and make data reports.
+              </p>
+              <p className='text-secondary text-center sm:text-sm'>
+                Work in conjunction with other departments' clients on resolving problems within our cityworks system.
+              </p>
+            </div>
+          </div>
+          <div className='separator flex flex-col items-center justify-evenly sm:ml-1
+                          sm:mr-1'>
+            <div className='flex flex-col items-center justify-center w-12 h-12 
+                            rounded-full bg-white border-2 border-black'>
+              <img alt='grad-cap' className='opacity-60 w-9/12' src={ stl_seal }></img>
+            </div>
+          </div>
+          <div className='flex flex-col w-5/12 justify-center'>
+            <div className='bg-white bg-opacity-20 border border-white
+                              border-opacity-10 rounded-xl p-3 justify-center items-center
+                              w-6/12 lg:w-8/12 sm:w-10/12 shadow-sm shadow-gray-400'>
+              <div className='flex flex-col'>
+                <p className='text-secondary text-center'>2024 - present</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* New Section */}
       </div>
     </div>
   )
