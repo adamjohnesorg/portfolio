@@ -33,7 +33,7 @@ const Description = () =>
           </p>
           <p className='text-secondary text-center'>
             When I am not sitting in front of my computer, I like to play and study chess, 
-            learn about history (WWII, in particular) and heavily involve myself in being a
+            learn about history (WWII in particular) and heavily involve myself in being a
             fan of both the NFL and NBA.
           </p>
         </div>
