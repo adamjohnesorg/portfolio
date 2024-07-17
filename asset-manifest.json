@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1977b120.css",
-    "main.js": "/static/js/main.c75735f9.js",
+    "main.js": "/static/js/main.034ed494.js",
     "static/media/catcalc.AVIF": "/static/media/catcalc.370034911a17c28be353.AVIF",
     "static/media/footballdraftboard.AVIF": "/static/media/footballdraftboard.ae46c88cf5eb8e3ded83.AVIF",
     "static/media/indiana_pacers.AVIF": "/static/media/indiana_pacers.ac4f116ef315b51788ec.AVIF",
@@ -15,10 +15,10 @@
     "static/media/x-logo.AVIF": "/static/media/x-logo.b5ac916e1da4f185397d.AVIF",
     "index.html": "/index.html",
     "main.1977b120.css.map": "/static/css/main.1977b120.css.map",
-    "main.c75735f9.js.map": "/static/js/main.c75735f9.js.map"
+    "main.034ed494.js.map": "/static/js/main.034ed494.js.map"
   },
   "entrypoints": [
     "static/css/main.1977b120.css",
-    "static/js/main.c75735f9.js"
+    "static/js/main.034ed494.js"
   ]
 }
