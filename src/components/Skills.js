@@ -37,6 +37,13 @@ const Skills = () =>
                             border border-white border-opacity-10 rounded-xl p-3
                             shadow-sm shadow-gray-400'>
                 <span className='text-secondary'>
+                  SQL
+                </span>
+              </div>
+              <div className='bg-white bg-opacity-20
+                            border border-white border-opacity-10 rounded-xl p-3
+                            shadow-sm shadow-gray-400'>
+                <span className='text-secondary'>
                   Python
                 </span>
               </div>
@@ -58,13 +65,6 @@ const Skills = () =>
                             border border-white border-opacity-10 rounded-xl p-3
                             shadow-sm shadow-gray-400'>
                 <span className='text-secondary'>
-                  Linux
-                </span>
-              </div>
-              <div className='bg-white bg-opacity-20
-                            border border-white border-opacity-10 rounded-xl p-3
-                            shadow-sm shadow-gray-400'>
-                <span className='text-secondary'>
                   C
                 </span>
               </div>
@@ -79,14 +79,14 @@ const Skills = () =>
                             border border-white border-opacity-10 rounded-xl p-3
                             shadow-sm shadow-gray-400'>
                 <span className='text-secondary'>
-                  MongoDB
+                  Linux Systems
                 </span>
               </div>
               <div className='bg-white bg-opacity-20
                             border border-white border-opacity-10 rounded-xl p-3
                             shadow-sm shadow-gray-400'>
                 <span className='text-secondary'>
-                  SQL
+                  AWS
                 </span>
               </div>
             </div>

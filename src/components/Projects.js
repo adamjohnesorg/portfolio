@@ -2,6 +2,7 @@ import React from 'react'
 import football_draftboard from '../imgs/footballdraftboard.AVIF'
 import catCalc from '../imgs/catcalc.AVIF'
 import github_logo from '../imgs/github-logo.AVIF'
+import fantasy_archives from '../imgs/archives.png'
 
 const Projects = () =>
 {
@@ -11,7 +12,70 @@ const Projects = () =>
       <div>
         <h1 className='text-primary text-4xl mb-2'>Projects</h1>
       </div>
-      <div className='flex flex-col w-8/12 sm:w-11/12'>
+      <div className='flex flex-col w-8/12 sm:w-11/12 gap-2'>
+        <div className='flex flex-row 2xl:flex-col 2xl:items-center bg-green-200 bg-opacity-20
+                          border border-white border-opacity-20 rounded-xl p-3
+                          shadow-sm shadow-gray-400'>
+          <div className='flex flex-col justify-between w-6/12 2xl:w-full'>
+            <div>
+              <h1 className='text-primary text-green-200 text-3xl sm:text-center'>NFL Fantasy Football Archives</h1>
+            </div>
+            <div>
+              <p className='text-secondary sm:text-center'>
+                I created an archives for our fantasy football league. Since we use Yahoo as our platform of choice, there isn't a great way to see previous years statistics, and so I created this website with that intent in mind. The website uses React, Node, Tailwind, SQL, Heroku and AWS. 
+              </p>
+            </div>
+            <div>
+              <p className='text-secondary sm:text-center'>
+                The website displays historical data about our past years' drafts, records and rosters; as well as contains information about everyone's overall record, profiles and more.
+              </p>
+            </div>
+            <div className='flex flex-row justify-start 2xl:flex-col xl:items-center'>
+              <div className='flex flex-row gap-2 2xl:gap-0 w-6/12 2xl:w-full justify-evenly'>
+                <div className='flex items-center bg-white bg-opacity-50 rounded-full
+                                border border-white border-opacity-50 p-1 shadow-sm
+                              shadow-black'>
+                  <span className='text-secondary text-black text-sm'>ReactJS</span>
+                </div>
+                <div className='flex items-center bg-white bg-opacity-50 rounded-full
+                                border border-white border-opacity-50 p-1 shadow-sm
+                              shadow-black'>
+                  <span className='text-secondary text-black text-sm'>NodeJS</span>
+                </div>
+                <div className='flex items-center bg-white bg-opacity-50 rounded-full
+                              border border-white border-opacity-50 p-1 shadow-sm
+                            shadow-black'>
+                  <span className='text-secondary text-black text-sm'>Tailwindcss</span>
+                </div>
+                <div className='flex items-center bg-white bg-opacity-50 rounded-full
+                              border border-white border-opacity-50 p-1 shadow-sm
+                            shadow-black'>
+                  <span className='text-secondary text-black text-sm'>SQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className='flex flex-col items-center gap-2 w-6/12 2xl:w-11/12 p-2'>
+            <div className=''>
+              <a href='https://www.618ffarchives.com/'>
+                <img alt='archives displayed' 
+                    className='rounded-2xl shadow-lg shadow-slate-800 border border-white
+                                border-opacity-60 p-1' 
+                    src={ fantasy_archives }>
+                </img>
+              </a>
+            </div>
+            <div>
+              <a href='https://github.com/adamjohnesorg/archives'>
+                <img src={ github_logo }
+                    alt='github logo'
+                    className='w-12 sm:w-8 rounded-2xl shadow-lg shadow-slate-800 
+                    border border-white border-opacity-20 sm:border-opacity-50'>
+                </img>
+              </a>
+            </div>
+          </div>
+        </div>
         <div className='flex flex-row 2xl:flex-col 2xl:items-center bg-blue-200 bg-opacity-20
                           border border-white border-opacity-20 rounded-xl p-3
                           shadow-sm shadow-gray-400'>
@@ -78,7 +142,7 @@ const Projects = () =>
         </div>
         <div className='flex flex-row 2xl:flex-col 2xl:items-center bg-orange-200 bg-opacity-20
                           border border-white border-opacity-20 rounded-xl p-3
-                          shadow-sm shadow-gray-400 sm:mt-2'>
+                          shadow-sm shadow-gray-400'>
           <div className='flex flex-col justify-between w-6/12 2xl:w-full'>
             <div>
               <h1 className='text-primary text-orange-400 text-3xl sm:text-center'>Cat Pan Liner Calculator</h1>

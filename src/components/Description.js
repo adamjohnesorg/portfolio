@@ -27,14 +27,12 @@ const Description = () =>
             software reflects that.
           </p>
           <p className='text-secondary text-center'>
-            My core stack currently is ReactJS, Tailwind and some
-            NodeJS. I am also proficient with Java and Python and I am comfortable with most 
+            My core stack currently is ReactJS, Tailwind, SQL and some
+            NodeJS. I am also proficient in Java and Python and I am comfortable with most 
             Object-Oriented-Programming languages.
           </p>
           <p className='text-secondary text-center'>
-            When I am not sitting in front of my computer, I like to play and study chess, 
-            learn about history (WWII in particular) and heavily involve myself in being a
-            fan of both the NFL and NBA.
+          Away from the computer, I enjoy studying and playing chess, exploring WWII history (or any history, really), staying active at the gym, going on long outdoor bike rides, and closely following both the NFL and NBA.
           </p>
         </div>
       </div>
